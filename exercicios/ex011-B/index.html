@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabanhando com Imaens</title>
+</head>
+<body>
+
+    <h1>Imaens Dinâmicas</h1>
+        <picture>
+            <source media="(max-width: 730px)" srcset="imagens/foto-p.png">
+            <source media="(max-width: 1030px)" srcset="imagens/foto-m.png">
+            <img src="imagens/foto-g.png" alt="imagem grande">
+        </picture>
+
+    <h1>Reproduzind áudios</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML.</p>
+        <audio preload="metadata" controls>
+            <source src="audio/Bail Bonds.mp3" type="audio/mpeg">
+            <source src="audio/Bail Bonds.ogg" type="audio.ogg">
+            
+            <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="audio/Bail Bonds.mp3" target="_blank" rel="external">Clique aqui</a> para para baixar o arquivo MP3.</p>
+        </audio>
+</body>
+</html>
