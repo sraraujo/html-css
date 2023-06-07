@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+
+}
+
+nav{
+    text-align: center;
+    color: white;
+    
+    height: 269px;
+    display: block;
+    justify-content: center;
+
+    background-color: black;
+}
+
+nav > h1{
+    font-family: 'Passion One', cursive;
+    font-size: 136px;
+    height: 113.8px;
+    padding-top: 100px;
+
+    background-clip: text;
+        
+}
+
+nav > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    height: 13.3px;
+}
