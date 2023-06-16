@@ -7,7 +7,7 @@
 
 }
 
-nav{
+header{
     text-align: center;
     color: white;
     
@@ -18,7 +18,7 @@ nav{
     background-color: black;
 }
 
-nav > h1{
+header > h1{
     font-family: 'Passion One', cursive;
     font-size: 136px;
     height: 113.8px;
@@ -28,8 +28,25 @@ nav > h1{
         
 }
 
-nav > p{
+header > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     height: 13.3px;
+}
+
+div.bloco{
+    background: white center center no-repeat fixed;
+    margin: 20px;
+
+}
+
+div.bloco > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+
+    width: 400px;
+    margin: 20px;
+    padding: 10px 20px;
+
+    background-color: aqua;
 }
