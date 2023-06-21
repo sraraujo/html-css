@@ -56,24 +56,52 @@ a:hover{
     text-decoration: underline;
 }
 
+p{
+    padding: 0px 20px 0px 20px;
+}
+
 div.bloco{
     background: white center center no-repeat fixed;
-    margin: 20px;
+    padding: 20px;
+    
 }
 
 div.bloco > p{
     font-family: var(--font02);
-    font-size: 47px;
-    line-height: 95.6px;
+    font-size: 4vw;
+    line-height: 12vh;
 
-    width: 520px;
-    margin: 20px;
-    padding: 10px;
-
-    background-color: green;
+    max-width: 550px;
+    min-width: 280px;
 
 }
 
 div#p2{
-    background-image: url('../imagens/');
+    background-image: url('../imagens/flor.jpg');
+    
+    height: 100%;
+}
+
+div#p2 > p{
+    color: white;
+    background-color: black;
+
+}
+
+div#p4 {
+    background-image: url('../imagens/letras02.jpg');
+
+}
+
+div#p4 > p{
+    background-color: rgba(255, 255, 255, 0.553);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: black;
+
+    padding: 10px;
 }
