@@ -6,6 +6,7 @@
 :root{
     --font01: 'Passion One', cursive;;
     --font02: 'Sriracha', cursive;
+
 }
 
 *{
@@ -15,22 +16,23 @@
 }
 
 header{
-    max-height: 300px;
+    max-height: 400px;
     display: block;
     justify-content: center;
 
     background-color: black;
     background-position: center top;
+
 }
 
 header > h1{
     font-family: var(--font01);
     text-align: center;
     font-size: 7.5vw;
-
     color: white; 
 
     padding: 70px 10px 0px 10px;
+
 }
 
 header > p{
@@ -40,62 +42,72 @@ header > p{
     color: white;
 
     padding: 5px 10px 50px 10px;
+
 }
 
 header > a{
     color:  white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+
 }
 
 a:visited{
     color: white;
+
 }
 
 a:hover{
     text-decoration: underline;
+
 }
 
-p{
-    padding: 20px;
-}
+main p{
+    font-family: var(--font02);
+    font-size: 3.4vw;
 
-div.bloco{
-    background: white center center no-repeat fixed;
-    padding: 20px;
+    padding-left: 20px;
+    margin-right: 200px;
+    
+    border-radius: 20px;
     
 }
 
-div.bloco > p{
-    font-family: var(--font02);
-    font-size: 4vw;
-    line-height: 12vh;
-
-    max-width: 550px;
-    min-width: 280px;
+div.bloco{
+    background: white;
+    padding: 20px;
 
 }
 
 div#p2{
-    background-image: url('../imagens/flor.jpg');
-    
-    height: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2018/06/14/22/22/ladybug-3475779_1280.jpg');
+    background-size: cover;
+
 }
 
 div#p2 > p{
-    color: white;
-    background-color: black;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.46);
 
 }
 
 div#p4 {
-    background-image: url('../imagens/letras02.jpg');
+    color: rgb(255, 255, 255);
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/26/man-593333_1280.jpg');
+    background-size: cover;
 
 }
 
 div#p4 > p{
-    background-color: rgba(255, 255, 255, 0.553);
+    background-color: rgba(50, 49, 49, 0.553);
+
 }
+
+div#p2 > p, div#p4 > p{
+    max-width: 42vw;
+}
+
+
 
 footer{
     color: white;
@@ -104,4 +116,5 @@ footer{
     background-color: black;
 
     padding: 10px;
+
 }
