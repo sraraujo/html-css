@@ -21,7 +21,6 @@ html, body{
 }
 
 header{
-    
     text-align: center;
     background-color: black;
 }
@@ -56,7 +55,6 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 50px;
-
 }
 
 section > p{
@@ -76,26 +74,23 @@ section.imagem{
     background-color: black;
 }
 
-section#imagem1{
-    background-image: url('../imagens/image001.jpg');
+    background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-section#imagem1 > p{
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.393);
+section#imagem1{
+    background-image: url('../imagens/image001.jpg');
 }
 
 section#imagem2{
     background-image: url('../imagens/image002.jpg');
-    background-size: cover;
 }
 
-section#imagem2 > p{
-    color: white;
+section#imagem1 > p, section#imagem2 > p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.267);
-
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.698);
 }
 
 footer{
@@ -105,6 +100,5 @@ footer{
     background-color: rgb(0, 0, 0);
     
     padding: 10px;
-
 }
 
