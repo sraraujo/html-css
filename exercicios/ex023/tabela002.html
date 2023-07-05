@@ -11,24 +11,50 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
-
-            background-color: rgba(197, 193, 193, 0.357);
         }
+
         table{
-            width: 500px;
+            width: 480px;
             border-collapse: collapse;
+            position: relative;
 
             margin: auto;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1PX;
+            background-color: grey;
         }
 
         thead, tfoot{
             color: white;
             background-color: grey;
         }
-        tr, th, td{
+
+        /*
+        odd = ímpar ou 2n-1
+        even = par ou 2n
+        */
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        
+        th, td{
             border: 1px solid black;
-            
             padding: 10px;
+        }
+
+        td.num{
+            text-align: right;
         }
     </style>
 
@@ -38,10 +64,14 @@
 
     <table>
 
+        <caption>
+            População das Unidades Federativas
+        </caption>
+
         <thead> <!-- CABEÇALHO-->
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 120px;">População</th>
             </tr>
         </thead>
 
@@ -183,12 +213,10 @@
 
         <tfoot> <!-- RODAPÉ-->
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 
-                <td>
-                    <strong>
-                        182 735 943
-                    </strong>
+                <td class="num">
+                    <strong>182 735 943</strong>
                 </td>
             </tr>
         </tfoot>
