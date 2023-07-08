@@ -4,25 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de Iframe</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        h1{
+            text-align: center;
+            padding: 40px;
+        }
+
+        iframe{
+            width: 280px;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+        #area-video{
+            width: 98vw;
+
+            display: inline-flex;
+            flex-wrap: wrap;
+        }
+
+        p{
+            text-align: center;
+            
+            width: 300px;
+            display: block;
+
+            padding: 40px 5px;
+            margin: auto;
+            
+        }
+    </style>
 </head>
 <body>
 
     <h1>Testando o uso de um iframe</h1>
-    <p>Acessadno o site do 
-        
-        <iframe src="https://www.cursoemvideo.com" frameborder="0">
 
-        </iframe>
+    <div id="area-video">
 
-        oara aprender a programasr.</p>
+        <p>Curso em Vídeo
+            <!-- Tamanho PADRÃO do iframe: 300px x 150px-->
+            <iframe src="https://www.cursoemvideo.com" frameborder="1" scolling="no"></iframe>
+        </p>
 
-        <p>O site do <iframe src="https://google.com.br" frameborder="0"></iframe> é muito legal, pena que não funciona dentro do iframe.</p>
+        <p>Mercado Livre
+            <iframe src="https://www.mercadolivre.com.br/" frameborder="0"></iframe>
+        </p>
 
-        <p>O repositório do Guanabara 
-
-            <iframe src="https://gustavoguanabara.github.io" frameborder="0"></iframe>
-            
-            também é bem legal.</p>
+    </div>
+    
     
 </body>
 </html>
