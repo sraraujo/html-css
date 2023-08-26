@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <h1>Exemplode Formulário</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="numero">Número:</label>
+            <input type="range" name="nrange" id="irange" min="0" max="10" value="5" oninput="total.innerHTML = Number(irange.value)">
+            <output id="total">?</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
