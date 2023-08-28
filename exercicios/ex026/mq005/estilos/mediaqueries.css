@@ -19,11 +19,10 @@
 
     h1{
         text-align: center;
-        padding: 10px;
+        padding: 20px;
     }
 
     span#burguer{
-        width: 98.78vw;
         display: block;
         color: white;
         text-align: center;
@@ -47,6 +46,7 @@
         text-decoration: none;
         display: block;
         color: white;
+        
         padding: 12px;
         background-color: rgb(79, 78, 78);
         border-top: 2px solid grey;
