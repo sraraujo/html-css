@@ -38,7 +38,6 @@
 
     nav{
         display: none;
-        flex-direction: column;
     }
 
     nav > a{
@@ -100,5 +99,18 @@
 
     footer > a:active{
         color: rgb(82, 76, 76);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    span#burguer{
+        display: none;
+
+    }nav#itens{
+        display: block;
+    }
+
+    nav#itens > a {
+        display: inline-block;
     }
 }

@@ -1,23 +1,17 @@
-document.getElementById('burguer').addEventListener('click', function(){
-
-    if (itens.style.display == 'flex'){
+function abrirMenu(){
+    if (itens.style.display == 'block'){
         itens.style.display = 'none'
     
     }else{
-        itens.style.display = 'flex'
+        itens.style.display = 'block'
     }
-})
+}
 
-/* FUNCIONA
-const clickMenu = document.getElementById('burguer').addEventListener('click', function(){
-
-    let itens = document.getElementById('itens');
-    
-    if (itens.style.display == 'flex') {
-        itens.style.display = 'none';
+function mudarTamanho(){
+    if(window.innerWidth >= 768){
+        itens.style.display = 'block'
     
     } else {
-        itens.style.display = 'flex'
+        itens.style.display = 'none'
     }
-})
-*/
+}
