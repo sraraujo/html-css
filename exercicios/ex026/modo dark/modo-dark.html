@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo Dark</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS responsivo-->
+    <link rel="stylesheet" href="mediaQeries.css">
+    <!-- icone do menu-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- icone do sol-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Icone da lua-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onresize="mudarDimensao()">
+
+    <header>
+        <img src="imagens/mascote.jpg" alt="Mascote Octotopus">
+        
+        <span class="material-symbols-outlined centralizar" id="menu" onclick="mostrarMennu()">menu</span>
+
+        <nav id="itens">
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Trabalhe conosco</li>
+                <li>FAQ</li>
+                <li>Sobre nós</li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+
+        <div id="modo">
+            <i class="material-symbols-outlined" id="dia">clear_day</i>
+            <i class="material-symbols-outlined" id="noite">dark_mode</i>
+        </div>
+
+        <section>
+
+            <h1>Teste Mode - Ajustes de cores com botão de click</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquam veritatis, sapiente alias sit debitis odit amet tempora, facilis maiores eveniet distinctio dignissimos eaque accusantium. Veniam corporis cupiditate ad praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatibus veniam laboriosam fugit provident excepturi rem? Modi dolor fugiat non laborum est culpa, facere libero expedita beatae magnam temporibus perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis maiores error maxime enim ex omnis non tempore minima. Exercitationem cupiditate quas sit velit voluptates aut illo iste quidem quo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nemo pariatur aperiam modi iste. Repellat autem mollitia repudiandae, eveniet maiores id. Sint quaerat repellendus quibusdam, ab temporibus error at earum!</p>
+
+        </section>
+
+        <section>
+
+            <h1>Mode in China - a ascensão de uma nova poetencial </h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquam veritatis, sapiente alias sit debitis odit amet tempora, facilis maiores eveniet distinctio dignissimos eaque accusantium. Veniam corporis cupiditate ad praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatibus veniam laboriosam fugit provident excepturi rem? Modi dolor fugiat non laborum est culpa, facere libero expedita beatae magnam temporibus perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis maiores error maxime enim ex omnis non tempore minima. Exercitationem cupiditate quas sit velit voluptates aut illo iste quidem quo!</p>
+
+        </section>
+
+        <section>
+            <h1>Terceiro parágrafo: especulando os fatos diantes do cenário atual</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquam veritatis, sapiente alias sit debitis odit amet tempora, facilis maiores eveniet distinctio dignissimos eaque accusantium. Veniam corporis cupiditate ad praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatibus veniam laboriosam fugit provident excepturi rem? Modi dolor fugiat non laborum est culpa, facere libero expedita beatae magnam temporibus perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis maiores error maxime enim ex omnis non tempore minima. Exercitationem cupiditate quas sit velit voluptates aut illo iste quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nobis doloribus expedita esse quaerat totam ipsa, sint quae culpa quis adipisci architecto amet tenetur, dignissimos eveniet suscipit porro deleniti consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nulla repudiandae dolore enim, consequuntur non delectus eius doloribus debitis minima placeat itaque dolorum ad asperiores, voluptas voluptates sed quod deleniti.</p>
+
+        </section>
+    </main>
+
+    <footer>
+        &copy; Empresa de Produtos In Natura <a href="#">Natural Free Life</a>
+    </footer>
+    
+    <script src="js/mostrar-Menu.js"></script>
+</body>
+</html>
