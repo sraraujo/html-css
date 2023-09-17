@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.504), rgba(0, 0, 255, 0.479));
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    
+    margin: 30px 0 20px 0;
+}
+
+section{
+    width: 300px;
+
+    padding: 20px 10px;
+    margin: auto;
+
+    border-radius: 15px;
+    background-color: white;
+}
+
+p{
+    text-align: center;
+    margin: 10px auto;
+}
+
+#idataNasc{
+    width: 35%;
+    padding: 2px 5px;
+}
+
+button#bt-verificar{
+    padding: 3px 10px;
+    margin: 10px 0;
+    
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+button#bt-verificar:hover{
+    background-color: rgba(0, 128, 0, 0.446);
+}
+
+button#bt-verificar:active{
+    color: white;
+    background-color: rgb(6, 112, 6);
+}
+
+#especial{
+    font-size: 13px;
+}
+
+img{
+    width: 80%;
+    
+    display: flex;
+    margin: 10px auto;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer > a{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    font-style: italic;
+}
+
+footer >a:hover{
+    color: yellow;
+    text-decoration: underline;
+}

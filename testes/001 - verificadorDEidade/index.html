@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos/gerais.css">
+    <!-- Media Queries -->
+    <link rel="stylesheet" href="estilos/mediaQueries.css">
+</head>
+<body>
+
+    <h1>Verificador de Idade</h1>
+    
+    <section>
+        <p>
+            <label for="idataNasc">Data de nascimento:</label>
+            <input type="number" name="dta-nasc" id="idataNasc" required placeholder="ex:(AAAA)">
+        </p>
+
+        <p>Sexo: 
+            <input type="radio" name="sexo" id="sexoF" checked>
+            <label for="sexoF">Feminino</label>
+
+            <input type="radio" name="sexo" id="sexoM">
+            <label for="sexoM">Masculino</label>
+        </p>
+
+        <p>
+            <button type="submit" id="bt-verificar">Verificar</button>
+        </p>
+
+        <div id="resultado">
+        </div>
+
+    </section>
+
+    <footer>Desenvolvido por <a href="https://sraraujo.github.io/redes-sociais/" target="_blank" rel="external">Jota Dev</a> &copy; 2023</footer>
+
+    <script src="JavaScript/scritp.js"></script>
+    
+</body>
+</html>
